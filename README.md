@@ -24,7 +24,7 @@
 | 분류 | 기술 | 설명 |
 | :--- | :--- | :--- |
 | **언어** | Python |
-| **모델** | cardiffnlp/twitter-xlm-roberta-base-sentiment | 트위터에서 수집된 데이터로 학습 및 파인튜닝된 XLM-roBERTa 기반 다국어 감정 분석 모델 |
+| **모델** | ```cardiffnlp/twitter-xlm-roberta-base-sentiment``` | 트위터에서 수집된 데이터로 학습 및 파인튜닝된 XLM-roBERTa 기반 다국어 감정 분석 모델 |
 | **스크래핑/자동화**| Selenium, webdriver-manager  | 플랫폼 접속 및 댓글/채팅 수집 |
 | **데이터베이스** | PyMySQL, SQLAlchemy | MySQL 데이터베이스 연결 및 데이터 입출력 관리 |
 | **실시간** | threading | 위버스 라이브 채팅 실시간 스크롤링 및 분석 병렬 처리 |
