@@ -25,6 +25,6 @@
 | :--- | :--- | :--- |
 | **언어** | Python |
 | **모델** | XLM-RoBERTa (Hugging Face) | 트위터에서 수집된 데이터로 학습 및 파인튜닝된 XLM-roBERTa 기반 다국어 감정 분석 모델 |
-| **프레임워크** | TensorFlow / PyTorch | 딥러닝 모델 학습 및 추론 환경 |
-| **백엔드** | FastAPI / Flask | 실시간 데이터 처리 및 API 엔드포인트 구성 |
-| **스크래핑/자동화**| Selenium, webdriver-manager  | 플랫폼별 댓글 및 채팅 데이터 수집 |
+| **스크래핑/자동화**| Selenium, webdriver-manager  | 플랫폼 접속 및 댓글/채팅 수집 |
+| **데이터베이스** | PyMySQL, SQLAlchemy | MySQL 데이터베이스 연결 및 데이터 입출력 관리 |
+| **실시간** | threading | 위버스 라이브 채팅 실시간 스크롤링 및 분석 병렬 처리 |
