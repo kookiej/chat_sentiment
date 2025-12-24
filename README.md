@@ -2,7 +2,10 @@
 ### 유튜브 댓글 & 위버스 라이브 채팅 감정분석
 
 #### ✨ 주요 기능
-##### 유튜브 댓글 분석
+###### sentiment_yt: YouTube 댓글 분석
+
+
+###### sentiment_we: Weverse 라이브 채팅 관리
 
 #### 🛠️ 기술 스택
 
@@ -12,4 +15,4 @@
 | **모델** | XLM-RoBERTa (Hugging Face) | 트위터에서 수집된 데이터로 학습 및 파인튜닝된 XLM-roBERTa 기반 다국어 감정 분석 모델 |
 | **프레임워크** | TensorFlow / PyTorch | 딥러닝 모델 학습 및 추론 환경 |
 | **백엔드** | FastAPI / Flask | 실시간 데이터 처리 및 API 엔드포인트 구성 |
-| **데이터 수집**| Selenium / 플랫폼 API | 플랫폼별 댓글 및 채팅 데이터 수집 |
+| **스크래핑/자동화**| Selenium, webdriver-manager  | 플랫폼별 댓글 및 채팅 데이터 수집 |
